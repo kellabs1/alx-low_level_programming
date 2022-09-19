@@ -7,26 +7,23 @@
  */
 void print_rev(char *s)
 {
-	int i = 0;
 
-	while (s[i] != '\0')
-	{
-		c++;
-	}
+	int i, c;
 
-	for (i -= 1; i >= 0; i--)
-	{
-		_putchar(s[i]);
-	}
+	c = _strlen(s);
 
+		for (i = (c - 1); i >= 0; i--)
+		{
+			_putchar(*(s + i));
+		}
 	_putchar('\n');
 }
 
 /**
- * print_rev - Prints strings in reverse
- *@s: Pointer variable points to the string to reversed
+ * _strlen - Returns Length of strings
+ *@s: Pointer variable points to the string
  *
- * Return: Nothing
+ * Return: Length of string
  */
 int _strlen(char *s)
 {
