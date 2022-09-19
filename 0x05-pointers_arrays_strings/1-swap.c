@@ -1,7 +1,7 @@
 /**
  * swap_int - swap two pointer variables
- *@*a: First pointer variable
- *@*b: Second pointer variable
+ *@a: First pointer variable
+ *@b: Second pointer variable
  *
  * Return: nothing
 
