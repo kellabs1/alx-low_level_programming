@@ -1,7 +1,6 @@
 /**
- * swap_int - swap two pointer variables
- *@a: First pointer variable
- *@b: Second pointer variable
+ * _strlen - Gives length of string
+ *@s: First pointer variable
  *
  * Return: nothing
  */
