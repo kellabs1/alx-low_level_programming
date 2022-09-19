@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_rev - Prints strings in reverse
- *@s: Pointer variable  that points to the string to be reversed
+ *@s: Pointer variable points to the string to reversed
  *
  * Return: Nothing
  */
@@ -21,4 +20,20 @@ void print_rev(char *s)
 	}
 
 	_putchar('\n');
+}
+
+/**
+ * print_rev - Prints strings in reverse
+ *@s: Pointer variable points to the string to reversed
+ *
+ * Return: Nothing
+ */
+int _strlen(char *s)
+{
+int i=0;
+while (*(s+i) != '\0')
+{
+i++;
+}
+return (i);
 }
