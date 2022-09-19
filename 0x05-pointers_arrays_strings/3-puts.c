@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _putchar - check the code
  *@str: Variable containing string
