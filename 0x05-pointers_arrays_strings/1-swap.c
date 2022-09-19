@@ -4,7 +4,6 @@
  *@b: Second pointer variable
  *
  * Return: nothing
-
  */
 void swap_int(int *a, int *b)
 {
