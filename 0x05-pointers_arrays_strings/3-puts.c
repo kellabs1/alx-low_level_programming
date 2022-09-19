@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _putchar - check the code
+ * _puts - check the code
  *@str: Variable containing string
  *
  * Return: Always 0.
