@@ -1,7 +1,6 @@
-
 #include "main.h"
 /**
- *rev_string - Prints character strings two steps
+ *puts2 - Prints character strings two steps
  *
  *@str: string to increment by two
  *
