@@ -23,3 +23,4 @@ int main(void)
 	}
 	printf("%c", val);
 	return (0);
+}
