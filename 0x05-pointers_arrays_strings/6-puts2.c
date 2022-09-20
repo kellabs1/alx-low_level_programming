@@ -9,10 +9,12 @@
 void puts2(char *str)
 {
 	int i = 0;
+
 	while (i < _strlen(str))
 	{
 		_putchar(*(str + i));
 		i += 2;
+
 	}
 	_putchar('\n');
 }
@@ -26,6 +28,7 @@ void puts2(char *str)
 int _strlen(char *s)
 {
 int i = 0;
+
 while (*(s + i) != '\0')
 {
 i++;
