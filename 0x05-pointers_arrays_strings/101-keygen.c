@@ -12,16 +12,16 @@
 
 int main(void)
 {
-	int j, i;
+	int n, p;
 
 	srand(time(NULL));
 
-	for (j = 2772; j >= 127; j -= i)
+	for (n = 2772; n >= 127; n -= p)
 	{
-		i = (rand() % 92 + 33);
+		p = (rand() % 94 + 33);
 
-		printf("%c", i);
+		printf("%c", p);
 	}
-	printf("%c", i);
+	printf("%c", p);
 	return (0);
 }
