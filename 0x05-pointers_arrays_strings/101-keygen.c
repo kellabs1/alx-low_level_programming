@@ -24,4 +24,4 @@ int main(void)
 	}
 	printf("%c", i);
 	return (0);
-}~
+}
