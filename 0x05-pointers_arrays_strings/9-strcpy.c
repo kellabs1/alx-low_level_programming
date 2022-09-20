@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _strcpy - check the code
- *@desk: Variable to be copied to
+ *@dest: Variable to be copied to
  *@src: Variable from where to copy from
  *
  * Return: Pointer to string
