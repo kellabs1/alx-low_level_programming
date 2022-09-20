@@ -7,14 +7,14 @@
  *
  * Return: Pointer to string
  */
-char _strcpy(char *desk, char *src)
+char *_strcpy(char *dest, char *src)
 {
-	int i = 0; //= strlen(s) - 1;
+	int i = 0;
 
-	while (i < (strlen(src)))
+	while ((*(dest + i) = *src++))
 	{
-		*(desk + i) = *(src + i);
 		i++;
 	}
-	return desk;
+	return (dest);
+
 }
