@@ -18,7 +18,7 @@ int main(void)
 
 	for (j = 2772; j >= 127; j -= i)
 	{
-		i = (rand() % 94 + 33);
+		i = (rand() % 92 + 33);
 
 		printf("%c", i);
 	}
