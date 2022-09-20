@@ -14,7 +14,8 @@ int main(void)
 {
 
 	srand(time(NULL));
-	int a, val;
+	int a, 
+        int val = 0;
 	for (a=100; a <= 3000; a += val)
 	{
 		val = (rand() % 92 + 30);
