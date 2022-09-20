@@ -1,9 +1,9 @@
 
 #include "main.h"
 /**
- *rev_string - reverses string
+ *rev_string - Prints character strings two steps
  *
- *@s: string to reverse
+ *@str: string to increment by two
  *
  *Return: Nothing
  */
