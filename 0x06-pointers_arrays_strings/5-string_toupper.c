@@ -6,14 +6,19 @@
  *
  * Return: pointer to a
  */
-char *string_toupper(char *s)
+char *string_toupper(char *p)
 {
-int i = 0;
-while (*(s + i))
-{
-if (*(s + i) >= 'a' && *(s + i) <= 'z')
-*(s + i) -= 'a' - 'A';
-i++;
-}
-return (s);
+	int a = 0;
+
+	while (p[a])
+	{
+		if (p[a] >= 97 && p[a] <= 122)
+		{
+			p[a] -= 32;
+		}
+
+		a++;
+	}
+
+	return (p);
 }
