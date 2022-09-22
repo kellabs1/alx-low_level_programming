@@ -5,17 +5,22 @@
  *
  * Return: pointer to a
  */
+
 char *string_toupper(char *a)
 {
+
 int i;
 
 i = 0;
 
 while (a[i])
 {
+
 if (a[i] >= 'a' && a[i] <= 'z')
 {
+
 a[i] += 'A' - 'a';
+
 }
 i++;
 }
