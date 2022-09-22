@@ -1,13 +1,13 @@
 #include "main.h"
-
 /**
  *cap_string - capitalise every word
  *@s: string to be capilized
- *Return: pointer to s
+ *Return: return s
  */
 char *cap_string(char *s)
 {
 	int i = 0, j;
+	
 	char a[] = " \t\n,;.!?\"(){}";
 
 	while (s[i])
