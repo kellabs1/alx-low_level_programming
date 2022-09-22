@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strcat - concatenate src with dest string
  * @dest: string pointer to serve as base
@@ -12,6 +11,7 @@ char *_strcat(char *dest, char *src)
 	int i, j;
 
 	i = j = 0;
+
 	while (*(dest + i))
 {
 i++;
