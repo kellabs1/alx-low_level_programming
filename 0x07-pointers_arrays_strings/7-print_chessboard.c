@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- *print_chessboard - prints chessboard ax8
+ * - prints chessboard ax8
  *
  *@a: 2d array
  *
