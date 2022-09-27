@@ -21,4 +21,10 @@ char *_strchr(char *s, char c)
 		}
 		*s++;
 	}
+
+
+	if (s[i] == c) /* what happens if c = '\0' */
+	return (s + i);
+
+	return (0);
 }
