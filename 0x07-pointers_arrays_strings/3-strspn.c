@@ -7,11 +7,12 @@
  *
  *Return: n of bytes in initial string that consists of bytes from accept
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, k;
-	i = j = k = 0;
+int i, j, k;
+
+i = j = k = 0;
+
 	while (s[i])
 	{
 		j = 0;
@@ -25,5 +26,6 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		i++;
 	}
-	return k;
+
+	return (k);
 }
