@@ -3,12 +3,13 @@
 /**
  * - prints chessboard ax8
  *
- *@a: 2d array
+ *@a: Two dimensional array
  *
  */
 void print_chessboard(char (*a)[8])
 {
 	int i, j;
+
 	i = 0;
 
 	while (i < 8)
@@ -21,7 +22,9 @@ void print_chessboard(char (*a)[8])
 
 			j++;
 		}
+
 		_putchar('\n');
+
 		i++;
 	}
 }
