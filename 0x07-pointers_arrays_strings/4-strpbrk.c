@@ -11,7 +11,9 @@
 char *_strpbrk(char *s, char *accept)
 {
 	int i, j, k;
+
 	i = k = 0;
+
 	while (s[i])
 	{
 		j = 0;
@@ -22,13 +24,11 @@ char *_strpbrk(char *s, char *accept)
 				return s;
 				++k;
 			}
-			else if (k == 1)
-			{
-				return k;
-			}
+
 			*s++;
 			j++;
 		}
 		i++;
 	}
+return (0);
 }
