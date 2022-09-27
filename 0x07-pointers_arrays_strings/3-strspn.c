@@ -5,27 +5,34 @@
  *@s : string to check
  *@accept: string to accept
  *
- *Return: n of bytes in initial string that consists of bytes from accept
+ *Return: n of bytes in initial string
  */
 unsigned int _strspn(char *s, char *accept)
 {
+
 int i, j, k;
 
 i = j = k = 0;
 
-	while (s[i])
-	{
-		j = 0;
+while (s[i])
+{
 
-		while (accept[j++])
-		{
-			if (accept[j] == s[i])
-			{
-				k++;
-			}
-		}
-		i++;
-	}
+j = 0;
 
-	return (k);
+while (accept[j++])
+{
+if (accept[j] == s[i])
+{
+
+k++;
+
+}
+}
+
+i++;
+
+}
+
+return (k);
+
 }
