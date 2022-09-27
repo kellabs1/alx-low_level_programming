@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * - prints chessboard ax8
+ *print_chessboard - prints chessboard ax8
  *
  *@a: Two dimensional array
  *
