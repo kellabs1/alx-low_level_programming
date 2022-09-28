@@ -15,7 +15,7 @@ int _strlen(char *str)
 }
 
 /**
- * check_palindrome - checks to see if a string is a palindrome
+ * chk_palindrome - checks to see if a string is a palindrome
  * @l: left hand index
  * @r: right hand index
  * @p: possible palindrome
