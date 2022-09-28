@@ -3,7 +3,7 @@
 /**
  *wildcmp - compares 2 strings
  *
- *@s1: string to compare
+ *@s1: string to be compared
  *@s2: string to compare containing special character *
  *
  *Return: 1 if identical, 0 if else
