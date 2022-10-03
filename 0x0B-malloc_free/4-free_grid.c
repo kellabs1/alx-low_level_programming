@@ -4,7 +4,7 @@
 /**
  * free_grid - frees memory allocation of a 2D array
  * @grid: grid to free
- * @height: length of axis x of the grid
+ * @height: height of grid
  *
  * Return: void
  */
