@@ -5,7 +5,7 @@
 /**
 * free_list - frees a linked list
 * @head: a pointer to the head of a linked list
-* return: void
+* Return: void
 */
 void free_list(list_t *head)
 {
